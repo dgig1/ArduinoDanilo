@@ -1,0 +1,40 @@
+buildscript {
+    repositories { mavenCentral(); gradlePluginPortal() }
+    dependencies { classpath "com.badlogicgames.gdx:gdx-tools:1.13.5" }
+}
+
+allprojects {
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+    version = '1.0.0'
+    ext {
+        appName = 'Flappy Rehab'
+        gdxVersion = '1.13.5'
+        gdxControllersVersion = '2.2.3'
+        gdxTeaVMVersion = '1.0.0'
+    }
+    repositories { mavenCentral() }
+}
+
+project(':core') {
+    apply plugin: 'java-library'
+    dependencies {
+        api "com.badlogicgames.gdx:gdx:${gdxVersion}"
+        implementation "com.fazecast:jSerialComm:2.11.0"
+    }
+}
+
+project(':lwjgl3') {
+    apply plugin: 'java'
+    dependencies {
+        implementation project(':core')
+        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:${gdxVersion}"
+        runtimeOnly "com.badlogicgames.gdx:gdx-platform:${gdxVersion}:natives-desktop"
+    }
+}
+
+subprojects {
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+}
