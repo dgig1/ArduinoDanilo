@@ -5,8 +5,8 @@ Projeto inicial de jogo 2D inspirado na mecânica de jogos de voo lateral, com p
 ## Requisitos
 - JDK 17
 - Conexão com a internet na primeira compilação (para baixar dependências Gradle)
-- Arduino UNO ou MEGA e sensor HC-SR04 para o controle físico
-- Windows: a porta serial costuma aparecer como `COM3`, `COM4` etc.
+- Arduino MEGA e sensor HC-SR04 para o controle físico
+- Windows: a porta serial costuma aparecer como `COM3`
 
 ## Abrir no VS Code
 1. Extraia o ZIP.
