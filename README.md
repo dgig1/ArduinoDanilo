@@ -4,6 +4,7 @@ Projeto final de jogo 2D para reabilitação de pessoas com problemas motores in
 
 <div align="center">
   <img src="Assets/gameplay.png" width="70%" />
+  <a = Aluno: Danilo Gigliotti RA: 10443431>
 </div>
 
 Aluno: Danilo Gigliotti RA: 10443431  
