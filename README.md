@@ -11,8 +11,8 @@ Aluno: Danilo Gigliotti RA: 10443431
 
 
 <div align="center">
-  <img src="Assets/mega.png" width="45%" />
-  <img src="Assets/hc-sr04.png" width="45%" />
+  <img src="Assets/mega.png" width="30%" />
+  <img src="Assets/hc-sr04.png" width="30%" />
 </div>
 
 ## Abrir no VS Code
