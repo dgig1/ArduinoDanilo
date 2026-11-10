@@ -2,6 +2,7 @@
 
 Projeto inicial de jogo 2D inspirado na mecânica de jogos de voo lateral, com personagem original desenhado por formas simples. O jogador controla a altura com a distância da mão ao sensor ultrassônico HC-SR04.
 
+Aluno: Danilo Gigliotti RA: 10443431  
 ## Requisitos
 - JDK 17
 - Conexão com a internet na primeira compilação (para baixar dependências Gradle)
