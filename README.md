@@ -12,10 +12,10 @@ Aluno: Danilo Gigliotti RA: 10443431
 ## Arduino
 
 ### Tela inicial
-![Arduino Mega](assets/mega.png)
+![Arduino Mega](Assets/mega.png)
 
 ### Sensor
-![Sensor Ultrassônico](assets/screenshots/hc-sr04.png)
+![Sensor Ultrassônico](Assets/hc-sr04.png)
 
 ## Abrir no VS Code
 1. Extraia o ZIP.
