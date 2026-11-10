@@ -65,5 +65,5 @@ Não conecte o ECHO a uma tensão acima de 5V no Arduino UNO. Use o sensor e o c
 - Métricas visíveis na tela: pontuação, fase e última distância recebida.
 
 ## Observações
-- O projeto registra métricas simples durante a partida; ainda não grava relatórios persistentes em arquivo.
+- O projeto registra métricas simples durante a partida; não grava relatórios persistentes em arquivo.
 - O código foi preparado como base inicial e deve ser compilado/testado no ambiente local. A primeira execução precisa baixar dependências.
