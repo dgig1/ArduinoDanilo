@@ -3,7 +3,7 @@
 Projeto final de jogo 2D para reabilitação de pessoas com problemas motores inspirado na mecânica de jogos de voo lateral, com personagem original desenhado por formas simples. O jogador controla a altura com a distância da mão ao sensor ultrassônico HC-SR04.
 
 <div align="center">
-  <img src="Assets/gameplay.png" width="30%" />
+  <img src="Assets/gameplay.png" width="70%" />
 </div>
 
 Aluno: Danilo Gigliotti RA: 10443431  
