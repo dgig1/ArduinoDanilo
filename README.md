@@ -1,6 +1,6 @@
 # Flappy Rehab — libGDX + Arduino HC-SR04
 
-Projeto inicial de jogo 2D inspirado na mecânica de jogos de voo lateral, com personagem original desenhado por formas simples. O jogador controla a altura com a distância da mão ao sensor ultrassônico HC-SR04.
+Projeto final de jogo 2D para reabilitação de pessoas com problemas motores inspirado na mecânica de jogos de voo lateral, com personagem original desenhado por formas simples. O jogador controla a altura com a distância da mão ao sensor ultrassônico HC-SR04.
 
 Aluno: Danilo Gigliotti RA: 10443431  
 ## Requisitos
