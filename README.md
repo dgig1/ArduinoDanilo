@@ -9,6 +9,14 @@ Aluno: Danilo Gigliotti RA: 10443431
 - Arduino MEGA e sensor HC-SR04 para o controle físico
 - Windows: a porta serial costuma aparecer como `COM3`
 
+## Arduino
+
+### Tela inicial
+![Arduino Mega](assets/mega.png)
+
+### Sensor
+![Sensor Ultrassônico](assets/screenshots/hc-sr04.png)
+
 ## Abrir no VS Code
 1. Extraia o ZIP.
 2. Abra a pasta `FlappyRehab` no VS Code.
