@@ -1,0 +1,23 @@
+
+sourceSets.main.java.srcDirs = ["src/"]
+
+eclipse.project.name = appName + "-lwjgl3"
+
+tasks.register('run', JavaExec) {
+    group = 'application'
+    description = 'Runs Flappy Rehab'
+
+    dependsOn classes
+
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'Main'
+
+    workingDir = rootProject.projectDir
+    standardInput = System.in
+
+    def serialPort = project.findProperty('serialPort')
+
+    if (serialPort != null) {
+        systemProperty 'serial.port', serialPort.toString()
+    }
+}
