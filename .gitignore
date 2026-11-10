@@ -1,6 +1,7 @@
 
 # Gradle
 .gradle/
+.tools/
 **/build/
 
 # IntelliJ / IDE
